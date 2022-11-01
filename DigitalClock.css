@@ -1,14 +1,22 @@
 body {
     background: black;
+    
+}
+#center{ 
     display:flex;
     align-items: center;
+     /* controls alignment of all items on the cross axis  */
     justify-content: center;
+    /* justify-content controls alignment of all items on the main axis */
 }
-
 .clock {
-   
     color: #17D4FE;
     font-size: 60px;
     letter-spacing: 7px;
+    align-items: center;
 
 }
+
+
+
+

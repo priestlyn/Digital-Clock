@@ -13,7 +13,7 @@ function showTime(){
         h = h - 12;
         session = "PM";
     }
-    
+    /**variable= condition ? (expression if true) :(expression if false) */
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
